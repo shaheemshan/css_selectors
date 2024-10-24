@@ -1,0 +1,24 @@
+/* 1.group selectors is used */
+h1,h2{
+    color: blueviolet;
+}
+
+/* 2.child selector is used */
+.box > .done{
+    color: firebrick;
+}
+
+/* descendent selector */
+.box li{
+    color: blue;
+}
+
+/* chain selector */
+li.done{
+    color: seagreen;
+}
+
+/* combined combinators */
+ul > p.done{
+    font-size: .5rem;
+}
